@@ -1,0 +1,9 @@
+# This repository holds ONLY the PowerFold Theory landing page (index.html),
+# which deploys to powerfoldtheory.com. The rest of this folder is a working
+# area (the app source, Android builds, zip archives, node_modules, etc.) and
+# must never be committed here. So: ignore everything, then re-include the
+# landing page and these housekeeping files.
+/*
+!index.html
+!README.md
+!.gitignore
