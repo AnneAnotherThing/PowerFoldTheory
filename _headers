@@ -27,3 +27,5 @@
   Cache-Control: public, max-age=31536000, immutable
 /hero-smoke.webm
   Cache-Control: public, max-age=31536000, immutable
+/card-star.webp
+  Cache-Control: public, max-age=31536000, immutable
