@@ -403,7 +403,7 @@ body {
   overflow: hidden;
   min-height: 100vh;
 }
-.hero-image img {
+.hero-image img, .hero-image video {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -893,7 +893,7 @@ footer {
 @media (max-width: 960px) {
   .hero { grid-template-columns: 1fr; }
   .hero-image { min-height: 100vw; height: 100vw; }
-  .hero-image img { object-position: center 20%; }
+  .hero-image img, .hero-image video { object-position: center 20%; }
   .hero-text { padding: 60px 28px 52px; }
   .section { padding: 72px 28px; }
   .truth { grid-template-columns: 1fr; gap: 40px; }
@@ -954,7 +954,12 @@ footer {
     </div>
   </div>
   <div class="hero-image">
-    <img src="/hero-smoke.webp" alt="Ace, the PowerFold coach, blowing smoke off a card at the table" width="720" height="980" fetchpriority="high" decoding="async" />
+    <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="/hero-smoke.webp" width="720" height="980" aria-label="Ace, the PowerFold coach, blowing smoke off a card at the table">
+      <source src="/hero-smoke.webm" type="video/webm">
+      <source src="/hero-smoke.mp4" type="video/mp4">
+      <img src="/hero-smoke.webp" alt="Ace, the PowerFold coach, blowing smoke off a card at the table" width="720" height="980" />
+    </video>
+    <script>(function(){var v=document.querySelector(".hero-video");if(v&&matchMedia("(prefers-reduced-motion: reduce)").matches){v.removeAttribute("autoplay");v.pause();}})();</script>
   </div>
 </section>
 <div class="hero-rule"></div>

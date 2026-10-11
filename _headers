@@ -23,3 +23,7 @@
   Cache-Control: public, max-age=31536000, immutable
 /how-it-works.webp
   Cache-Control: public, max-age=31536000, immutable
+/hero-smoke.mp4
+  Cache-Control: public, max-age=31536000, immutable
+/hero-smoke.webm
+  Cache-Control: public, max-age=31536000, immutable
