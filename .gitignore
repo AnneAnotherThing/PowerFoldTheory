@@ -19,3 +19,7 @@
 !icon-192.webp
 !icon-512.webp
 !og-1200.jpg
+!fonts/
+!fonts/*.woff2
+!hero.webp
+!how-it-works.webp
