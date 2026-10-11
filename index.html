@@ -22,7 +22,7 @@
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" type="image/webp" href="/icon-192.webp" sizes="192x192">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preload" href="/hero.webp" as="image" type="image/webp" fetchpriority="high">
+<link rel="preload" href="/hero-smoke.webp" as="image" type="image/webp" fetchpriority="high">
 <link rel="preload" href="/fonts/playfair-display-900.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/oswald-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/crimson-pro-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -892,7 +892,8 @@ footer {
 /* -- RESPONSIVE -- */
 @media (max-width: 960px) {
   .hero { grid-template-columns: 1fr; }
-  .hero-image { min-height: 55vw; height: 55vw; }
+  .hero-image { min-height: 100vw; height: 100vw; }
+  .hero-image img { object-position: center 20%; }
   .hero-text { padding: 60px 28px 52px; }
   .section { padding: 72px 28px; }
   .truth { grid-template-columns: 1fr; gap: 40px; }
@@ -953,7 +954,7 @@ footer {
     </div>
   </div>
   <div class="hero-image">
-    <img src="/hero.webp" alt="PowerFold Theory, own the table" width="1000" height="756" fetchpriority="high" decoding="async" />
+    <img src="/hero-smoke.webp" alt="Ace, the PowerFold coach, blowing smoke off a card at the table" width="720" height="980" fetchpriority="high" decoding="async" />
   </div>
 </section>
 <div class="hero-rule"></div>
